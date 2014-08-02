@@ -1,9 +1,11 @@
-//I feel like the design of my code could be tremendously improved
+import java.util.Scanner;
+
 public class Problem7{
 
     public static void main(String []args){
         int count = 0;
-        int check = 10001;
+        Scanner sc=new Scanner(System.in);
+        int check = sc.nextInt();
         int i = 1;
         
         while (i > 0) {
